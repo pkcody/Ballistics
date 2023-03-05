@@ -47,7 +47,7 @@ public class CalculateFiringSolution
         }
         else
         {
-            ttt = Mathf.Max(time0, time1);
+            ttt = Mathf.Min(time0, time1);
         }
 
         return ttt;
